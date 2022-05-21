@@ -113,14 +113,17 @@ main .bottons button{
 	height: 40px;
 	border: none;
 	background-color: #f8f9fa;
+	color: #494949;
 	text-align: center;
 	border-radius: 5px;
 	padding: 0 20px ;
 	margin: 0 5px;
+	font-size: 15px;
 }
 main .bottons button:hover{
 	border: 1px solid #c6c6c6;
 	box-shadow: 0 1px 6px 0 #20212447;
+	background-color: #f8f9fa;
 }
 main .bottons button:focus{
 	border: 1px solid #4285f4;
@@ -133,4 +136,45 @@ main .idiom div{
 main .idiom div a{
 	margin-left: 3px;
 	color: #1a0dab;
+}
+main .idiom div p{
+	color: #494949;
+}
+footer{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+footer .footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	font-size: 15px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #dadce0;
+}
+footer .footer ul{
+	margin: 10px;
+	list-style: none;
+	display: flex;
+	padding-left: 0;
+}
+footer .footer .footer-left{
+	justify-self: left;
+}
+footer .footer .footer-right{
+	justify-self: right;
+}
+footer .footer ul li a{
+	padding: 20px;
+	font-size: 15px;
+	margin: 10px;
+	color: #5f6368;
+}
+footer .country p{
+	background-color: #f2f2f2;
+	font-size: 17px;
+	padding: 20px;
+	margin: 0;
+	color: #5f6368;
 }
